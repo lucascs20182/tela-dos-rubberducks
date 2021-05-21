@@ -1,0 +1,87 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 525px;
+    margin: auto;
+    margin-top: 60px;
+    border: 2px solid var(--cor-borda);
+}
+
+#formulario-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+
+    padding: 30px;
+
+    width: 100%;
+    height: 350px;
+    margin-bottom: 65px;
+}
+
+#formulario-container div {
+    margin: 5px 0;
+}
+
+#titulo-da-tela {
+    background-color: var(--cor-terciaria);
+}
+
+#container-observacao textarea {
+    /* resize: none; */
+    width: 100%;
+}
+
+#container-observacao {
+    padding-top: 50px;
+}
+
+#titulo-da-tela h1 {
+    font-size: 17px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#nome-e-email, #senha-sexo-tipodev {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nome-e-email div, #senha-sexo-tipodev div {
+    display: flex;
+    flex-direction: column;
+} 
+
+#senha-sexo-tipodev {
+    margin-bottom: 200px;
+}
+
+#nome {
+    width: 160px;
+    margin-right: 20px;
+}
+
+#email {
+    width: 280px;
+}
+
+#senha {
+    width: 130px;
+}
+
+#botoes {
+    align-self: flex-end;
+}
+
+#botao-salvar {
+    background-color: var(--cor-principal);
+    color: #fff;
+    margin-right: 5px;
+}
+
+#botao-cancelar {
+    background-color: #fff;
+    color: var(--cor-principal);
+}

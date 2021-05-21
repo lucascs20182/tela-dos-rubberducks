@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar usuário</title>
+    <link rel="icon" href="./assets/icon_RubberDucks2.ico" />
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/adicionar-usuario.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="titulo-da-tela">
+            <h1>Adicionar usuário</h1>
+        </div>
+
+        <div id="formulario-container">
+            <div id="nome-e-email">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" placeholder="Nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" placeholder="E-mail">
+                </div>
+            </div>
+
+            <div id="senha-sexo-tipodev">
+                <div>
+                    <label for="senha">Senha</label>
+                    <input id="senha" type="password" placeholder="Senha">
+                </div>
+
+                <div>
+                    <label for="sexo">Sexo</label>
+                    <select id="sexo">
+                        <option value="Não selecionado" selected>Selecione</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="tipo-de-dev">Tipo de Dev.</label>
+                    <select id="tipo-de-dev">
+                        <option value="Não selecionado" selected>Selecione</option>
+                        <option value="Frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="Fullstack">Fullstack</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="container-observacao">
+                <label for="observacao">Observação</label>
+                <textarea id="observacao" rows="6"></textarea>
+            </div>
+
+            <div id="botoes">
+                <button id="botao-salvar">Salvar</button>
+                <button id="botao-cancelar">Cancelar</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
